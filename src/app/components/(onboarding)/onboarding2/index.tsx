@@ -1,10 +1,9 @@
-import { Darumadrop_One } from 'next/font/google'
+import { daruma } from '@/app/layout'
 import { ChatBox } from '@/app/utils/chatbox'
 import piggy from '../../../../../public/bavi.json'
 import Lottie from 'lottie-react'
 import { ContainerAnimation } from '@/app/utils/(animation)/containeranimation'
 
-const daruma = Darumadrop_One({ weight: ['400'], subsets: ['latin'] })
 export default function Onboarding2({ setOnboarding }: any) {
   const style = {
     height: 400,

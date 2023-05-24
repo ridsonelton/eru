@@ -9,7 +9,7 @@ export default function Onboarding2({ setOnboarding }: any) {
   }
   return (
     <ContainerAnimation>
-      <div className="flex flex-col justify-center items-center ">
+      <div className="flex flex-col justify-center items-center">
         <ChatBox>
           <h5 className="">
             Hi, my name is <span className="text-premiere">Bavi</span> <span className="text-sm italic text text-pink-200 pr-1"> (/ba.bi/) </span> i am <span className="text-lime-300">ERU`s</span> pet

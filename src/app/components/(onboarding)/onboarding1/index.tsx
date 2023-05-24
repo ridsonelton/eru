@@ -10,7 +10,7 @@ export default function Onboarding1({ setOnboarding }: any) {
     height: 400,
   }
   return (
-    <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.75 }} className="flex justify-center -mt-10">
+    <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.75 }} className="flex justify-center -mt-10 h-[100vh]">
       <div>
         <Lottie animationData={piggy} style={style}></Lottie>
       </div>

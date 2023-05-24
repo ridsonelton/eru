@@ -15,7 +15,7 @@ export default function Onboarding2({ setOnboarding }: any) {
             Hi, my name is <span className="text-premiere">Bavi</span> <span className="text-sm italic text text-pink-200 pr-1"> (/ba.bi/) </span> i am <span className="text-lime-300">ERU`s</span> pet
             <span className={`text-xl`}> よろしく。</span>
             <br />
-            before you click the next button i'll warn you this will be soo tedious and cringe.
+            before you click the next button i`ll warn you this will be soo tedious and cringe.
           </h5>
         </ChatBox>
         <div

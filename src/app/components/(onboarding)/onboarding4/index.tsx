@@ -41,8 +41,22 @@ export default function Onboarding4({ setAppear }: any) {
       <ContainerAnimation>
         <ChatBox>
           <h5 className="">
-            My owner really <span className="text-red-500">loves</span>❤️ Ramen so he make separate to each condement. Click the Bowl if you wanna look <span className="text-emerald-400"> "About him"</span> , click the Noodle to look his
-            <span className="text-sky-400"> "Skills"</span>, and click the Chopstick to look his <span className="text-indigo-400"> "Works"</span>.
+            My owner really <span className="text-red-500">loves</span>❤️ Ramen so he make separate to each condement. Click the Bowl if you wanna look{' '}
+            <span className="text-emerald-400">
+              {' '}
+              <q>About him</q>{' '}
+            </span>{' '}
+            , click the Noodle to look his
+            <span className="text-sky-400">
+              {' '}
+              <q>Skills</q>{' '}
+            </span>
+            , and click the Chopstick to look his{' '}
+            <span className="text-indigo-400">
+              {' '}
+              <q>Works</q>
+            </span>
+            .
           </h5>
         </ChatBox>
         <div className="-mb-40 -ml-12 -z-20 relative">

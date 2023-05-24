@@ -12,7 +12,7 @@ export default function Works() {
       <ContainerAnimation>
         <div>
           <h2 className="tracking-wider text-2xl underline underline-offset-4 font-semibold text-indigo-400 mb-2">Works</h2>
-          <p className="indent-4">Because his works is "mostly not a personal project, these are the only works he can show". Is what he said but i think it was because others project is trash and he's too shame to show it.</p>
+          <p className="indent-4">Because his works is mostly not a personal project, these are the only works he can show. Is what he said but i think it was because others project is trash and he`s too shame to show it.</p>
         </div>
         <div className="flex flex-wrap gap-4 my-5 justify-center">
           <div className="flex justify-center flex-col items-center">

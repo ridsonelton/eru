@@ -9,7 +9,9 @@ export default function Skills() {
       <ContainerAnimation>
         <div>
           <h2 className="tracking-wider text-2xl underline underline-offset-4 font-semibold text-sky-400 mb-2 ">Skills</h2>
-          <p className="indent-4">He has pretty much skill, but his skill level is not the best of the best. He said that he want to be a Man who can do everything but I would say "he is just an inconsistency."</p>
+          <p className="indent-4">
+            He has pretty much skill, but his skill level is not the best of the best. He said that he want to be a Man who can do everything but I would say <q>he is just an inconsistency.</q>
+          </p>
           <div>
             <h3 className="text-2xl underline mt-6 mb-2 font-bold text-sky-300">Web Development</h3>
             <p className="indent-4">On his lot of activities he started learn Web Development in january 2023 and aiming to be fullstack Web Dveloper.</p>

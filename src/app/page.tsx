@@ -29,7 +29,7 @@ export default function Home() {
   }
 
   const [mode, setMode] = useState(true)
-  const modeRef = useRef<HTMLBodyElement>(null)
+  const modeRef = useRef<HTMLDivElement>(null)
   const headRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -46,16 +46,15 @@ export default function Home() {
       headRef.current?.classList.remove('hidden')
     }
   })
-  console.log(modeRef.current?.classList)
-  console.log(mode)
+
   return (
-    <body ref={modeRef} className="container mx-auto lg:w-[40vw] sm:px-4 ">
-      <div className="flex flex-col justify-center items-center ">
+    <div ref={modeRef} className=" absolute top-0 left-0 right-0 mx-auto lg:w-[40vw] sm:px-4 ">
+      <div className="container flex flex-col justify-center items-center ">
         <div ref={headRef} className="hidden">
           <Header setOnboarding={setOnboarding} appear={appear} setMode={setMode} mode={mode}></Header>
         </div>
         <div className="mt-24 mb-14">{onboardingComponent()}</div>
       </div>
-    </body>
+    </div>
   )
 }

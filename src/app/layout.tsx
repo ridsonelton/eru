@@ -1,9 +1,7 @@
 import './globals.css'
 import { Londrina_Solid } from 'next/font/google'
-import { Darumadrop_One } from 'next/font/google'
 
 const Lod = Londrina_Solid({ weight: ['100', '300', '400', '900'], subsets: ['latin'] })
-export const daruma = Darumadrop_One({ weight: ['400'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'ERU',

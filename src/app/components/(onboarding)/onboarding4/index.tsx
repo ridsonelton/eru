@@ -61,11 +61,13 @@ export default function Onboarding4({ setAppear }: any) {
             </h5>
           </ChatBox>
         </div>
-        <div className="-mb-40 -ml-12 -z-20 relative">
+        <div className="-mb-36 -ml-12 relative">
           <Lottie animationData={steam} style={style}></Lottie>
         </div>
-        <Lottie className="-mb-32 " animationData={steam} style={style}></Lottie>
-        <Ramen setComponent={setComponent}></Ramen>
+        {/* <Lottie className="-mb-32 -z-10" animationData={steam} style={style}></Lottie> */}
+        <div className="relative z-20">
+          <Ramen setComponent={setComponent}></Ramen>
+        </div>
 
         <div className="flex justify-center items-center mx-auto px-4">{portofolioComponent()}</div>
       </ContainerAnimation>

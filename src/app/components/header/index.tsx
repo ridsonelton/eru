@@ -33,6 +33,10 @@ export default function Header({ setOnboarding, appear, setMode, mode }: any) {
   useEffect(() => {
     lottieRef.current!.playSegments([100, 101], true)
   }, [])
+
+  const style = {
+    height: 35,
+  }
   return (
     <main className="py-4 fixed bg-opacity-5 left-0 right-0 top-0 bg-teritary flex justify-center backdrop-blur-sm ">
       <div className="flex justify-between w-full mx-5 md:w-[50vw] lg:w-[40vw]">
@@ -63,6 +67,7 @@ export default function Header({ setOnboarding, appear, setMode, mode }: any) {
             animationData={darkmode}
             loop={false}
             autoPlay={false}
+            style={style}
           ></Lottie>
         </div>
       </div>

@@ -2,7 +2,7 @@ import Link from 'next/link'
 export default function Ramen({ setComponent }: any) {
   return (
     <div>
-      <svg className="mx-auto p-8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0" y="0" width="439" height="393" viewBox="0, 0, 439, 393">
+      <svg className="mx-auto p-8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0" y="0" width="350" height="350" viewBox="0, 0, 439, 393">
         <defs>
           <clipPath id="Clip_1">
             <path d="M-0,393 L438.402,393 L438.402,0.8 L-0,0.8 z" />

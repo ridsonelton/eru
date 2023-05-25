@@ -35,7 +35,7 @@ export default function Header({ setOnboarding, appear, setMode, mode }: any) {
   }, [])
   return (
     <main className="py-4 fixed bg-opacity-5 left-0 right-0 top-0 bg-teritary flex justify-center backdrop-blur-sm ">
-      <div className="flex justify-between lg:w-[40vw] w-[50vw]">
+      <div className="flex justify-between w-full mx-5 md:w-[50vw] lg:w-[40vw]">
         <div onClick={() => setOnboarding(2)} className="flex justify-center cursor-pointer">
           <div className="group flex gap-1">
             <div className="mt-1 -rotate-6 group-hover:rotate-12">

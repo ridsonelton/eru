@@ -37,34 +37,37 @@ export default function Onboarding4({ setAppear }: any) {
   }
 
   return (
-    <div className="flex justify-center  mx-auto max-w-min">
+    <div className="flex justify-center mx-auto ">
       <ContainerAnimation>
-        <ChatBox>
-          <h5 className="">
-            My owner really <span className="text-red-500">loves</span>❤️ Ramen so he make separate to each condement. Click the Bowl if you wanna look{' '}
-            <span className="text-emerald-400">
-              {' '}
-              <q>About him</q>{' '}
-            </span>{' '}
-            , click the Noodle to look his
-            <span className="text-sky-400">
-              {' '}
-              <q>Skills</q>{' '}
-            </span>
-            , and click the Chopstick to look his{' '}
-            <span className="text-indigo-400">
-              {' '}
-              <q>Works</q>
-            </span>
-            .
-          </h5>
-        </ChatBox>
+        <div className="flex justify-center">
+          <ChatBox>
+            <h5 className="">
+              My owner really <span className="text-red-500">loves</span>❤️ Ramen so he make separate to each condement. Click the Bowl if you wanna look{' '}
+              <span className="text-emerald-400">
+                {' '}
+                <q>About him</q>{' '}
+              </span>{' '}
+              , click the Noodle to look his
+              <span className="text-sky-400">
+                {' '}
+                <q>Skills</q>{' '}
+              </span>
+              , and click the Chopstick to look his{' '}
+              <span className="text-indigo-400">
+                {' '}
+                <q>Works</q>
+              </span>
+              .
+            </h5>
+          </ChatBox>
+        </div>
         <div className="-mb-40 -ml-12 -z-20 relative">
           <Lottie animationData={steam} style={style}></Lottie>
         </div>
+        <Lottie className="-mb-32 " animationData={steam} style={style}></Lottie>
         <Ramen setComponent={setComponent}></Ramen>
 
-        <div className="flex justify-center ">{portofolioComponent()}</div>
+        <div className="flex justify-center items-center mx-auto px-4">{portofolioComponent()}</div>
       </ContainerAnimation>
     </div>
   )
